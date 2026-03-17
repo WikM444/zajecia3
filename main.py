@@ -34,7 +34,7 @@ class TenantSettelment(BaseModel):
     balance: float
 
 class Apartment(BaseModel):
-    key: str
+    klucz: str
     name: str
     location: str
     area_m2: float
