@@ -20,7 +20,8 @@ class ApartmentSettlement(BaseModel):
     month: int 
     year: int 
     total_bills: int 
-    sum_of_rent: int
+    sum_of_rent: float
+    balans: float
 
 class TenantSettelment(BaseModel):
     name: str
