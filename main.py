@@ -13,7 +13,14 @@ class Parameters(BaseModel):
 
 class Room(BaseModel):
     name: str
-    area_m2: float
+    area_m2: float  
+
+class ApartmentSettlement(BaseModel):
+    apartament: str
+    month: int 
+    year: int 
+    total_bills: int 
+    sum_of_rent: int
 
 
 class Apartment(BaseModel):
