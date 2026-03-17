@@ -24,8 +24,6 @@ class TenantSettelment(BaseModel):
     bills: float
     paymentSum: float
     balance: float
-    balance = paymentSum - bills - rent
-
 
 class Apartment(BaseModel):
     key: str
