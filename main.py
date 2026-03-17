@@ -29,9 +29,8 @@ class TenantSettelment(BaseModel):
     year: int
     housing: int
     rent: float
-    bills: float
-    paymentSum: float
-    balance: float
+    adress: str
+    #wyswietlanie danych w lepszy sposob
 
 class Apartment(BaseModel):
     key: str
