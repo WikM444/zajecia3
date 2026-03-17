@@ -31,9 +31,7 @@ class TenantSettelment(BaseModel):
     rent: float
     bills: float
     paymentSum: float
-    saldo: float
-    saldo = paymentSum - bills - rent
-
+    balance: float
 
 class Apartment(BaseModel):
     key: str
