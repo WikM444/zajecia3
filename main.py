@@ -33,7 +33,7 @@ class TenantSettelment(BaseModel):
     #wyswietlanie danych w lepszy sposob
 
 class Apartment(BaseModel):
-    key: str
+    klucz: str
     name: str
     location: str
     area_m2: float
