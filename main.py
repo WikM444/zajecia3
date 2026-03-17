@@ -21,6 +21,7 @@ class ApartmentSettlement(BaseModel):
     year: int 
     total_bills: int 
     sum_of_rent: float
+    balance: float
 
 
 class Apartment(BaseModel):
