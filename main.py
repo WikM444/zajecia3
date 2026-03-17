@@ -22,6 +22,17 @@ class ApartmentSettlement(BaseModel):
     total_bills: int 
     sum_of_rent: int
 
+class TenantSettelment(BaseModel):
+    name: str
+    month: int
+    year: int
+    housing: int
+    rent: float
+    bills: float
+    paymentSum: float
+    saldo: float
+    saldo = paymentSum - bills - rent
+
 
 class Apartment(BaseModel):
     key: str
